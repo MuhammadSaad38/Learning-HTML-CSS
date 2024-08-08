@@ -1,7 +1,44 @@
+/* id selector is more presedence than tag-name selector */
+/* tag by name selector */
 h1{
-    background-color: yellow;
+    /* if important in here only important is important */
+    background-color: yellow ;  /* !important */
 
 }
+/* id selector */
 #heading {
-    background-color: aqua;
+    background-color: blue ;
 }
+
+/* universal selector(low presedence in all the tag) */
+*{
+    background-color: blueviolet;
+}
+body {
+    background-color: tomato;
+}
+
+
+/* class selector */
+.heading {
+    background-color: burlywood;
+}
+/* Select multiple selector and seprated by comma like below(same properties 1 sy zeyada selector py lgany k liy)
+.heading, #heading , h1 {
+    background-color: yellow;
+} */
+
+
+
+/* 
+presedence manner
+!important
+inline css
+#id
+class
+tag-name
+universal selector 
+*/
+
+
+
