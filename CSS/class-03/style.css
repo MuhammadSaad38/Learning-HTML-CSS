@@ -1,0 +1,39 @@
+.heading{ /*background-color property have 3 possible catagories*/
+    /*background-color property is fill the color in which area cover by tag*/
+    background-color: yellowgreen; /*value by name(alsmost 147 color name avalaible estimated)*/
+    background-color: rgb(1545,123,1010); /*range min:0 and max:255(by rgb(red,green,blue)) every color make with these three colors*/
+    background-color: #ff24aa;/*by hexadecimal(0 to f)*/
+    /*
+    -starting with #
+    -first two represent red
+    -3 and 4 position represent green
+    -and last two represent blue
+    -hexarange(0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f)
+    */
+}
+/*
+Note:
+-Some color picker website to selct the code of rgb and hexadecimal code if we google
+-some chrome extensions like  colorZila , colorpicker for finding hexacode or rgb value from picture
+*/
+.heading{
+    /*color property fill the color of text*/
+    /*all categories of background-color apply on this property*/
+    color: yellow;
+    background-color: rgba(red, green, blue, 0.5);
+    background-color: hsl(hue, saturation, lightness);
+    background-color: hsla(hue, saturation, lightness, alpha);
+}
+/*
+another property
+rgba(red,green,blue,alpha)
+-alpha measn opecity color visibility on screen 
+-range(0,1)
+-1 means 100% of color visibility
+-0 means 100% transparent(backgrondcolor visible apna color nazar nhi ay ga)
+-hexa is calculated value there is no processing involved
+-rgb is first calculate and then give us color
+-normally we use hexa color
+-in hexa opecity is used by its property opecity(0...1)
+- if we want to apply different color on 1 div then we use property background-color: gradient(linear,left top ,left bottom);
+*/
