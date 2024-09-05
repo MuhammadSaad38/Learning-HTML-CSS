@@ -1,0 +1,30 @@
+/*one way to make custom font that is direct import from internet like google font websites etc*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+/*another way to download font and place into project folder it is preferable methode*/
+@font-face {
+    font-family: suse;
+    src: url(./SUSE-Medium.ttf);
+}
+/*there are three categories of font 1-serif 2- sun serif 3-monospace*/
+.heading{
+    font-family: 'suse';
+    text-decoration: underline;
+    line-height: 5;
+    letter-spacing: 10px;
+    word-spacing: 50px;
+    background-color: yellowgreen;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #999;
+    overflow: scroll;
+    text-indent: 200px;
+}
+
+#p1{
+    color: #000000;/*to change the color of text*/
+    font-size: 32px;/*px is not a good unit and change the font size*/
+    font-weight: 700;/*text thikness or thinness*/
+    text-align: left;/*text position*/
+    font-family: "Roboto", sans-serif;
+    font-style: italic;/*text way of style*/
+}
+/*Note: for better understanding go through readme.md*/
